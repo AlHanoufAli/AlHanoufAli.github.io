@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(./img/bu4.png) ;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position:bottom;
+    background-color:#e5e6eb;
+    overflow: hidden;
+}
+
+a {
+    color: #20b2ab;
+    text-decoration: none;
+}
+
+form {
+    width: 30rem;
+}
+
+form label {
+    display: block;
+}
+
+form input {
+    padding: 0.5rem;
+    width: 100%;
+}
+
+form button[type="submit"] {
+    width: 100%;
+    cursor: pointer;
+}
+
+form small {
+    font-size: 1rem;
+}
+
+form .input-error {
+    color: red;
+    font-size: 0.8rem;
+}
+
+
+.page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Utility Classes */
+.text-primary { color: gray; }
+
+.py-1 { padding: 1rem 0; }
+.my-1 { margin: 1rem 0; }
+
+.btn {
+    background: #20b2ab;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-disabled {
+    background: gray;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+#success {
+    color: green;
+}
+
+/* Welcome Section Styles */
+#welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#logo {
+    width: 20rem;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    width: 40rem;
+    flex-wrap: wrap;
+    margin: 2rem 1rem;
+}
+
+.btn-group a {
+    margin: 1rem;
+}
+
+#welcome p {
+    width: 50rem;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+
+#icons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20rem;
+}
+
+#icons a {
+    color: #20b2ab;
+}
+
+/* Login Section Styles */
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#login form {
+    margin: 1rem 2rem;
+    padding: 1rem 2rem;
+}
+
+/* Sign up section styles */
+#signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navbar Styling */
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    position: relative;
+    top: 0rem;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 2rem;
+}
+
+/* Main Page Styling */
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Rate Section Styles */
+#rate-us form fieldset {
+    border: none;
+}
+
+#rate-us form label {
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+#rate-us form #msg {
+    margin-bottom: 1rem;
+}
+
+#rate-us form textarea {
+    display: block;
+    width: 100%;
+    resize: none;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+/* Admin Table Styles */
+th, td {
+    padding: 1rem;
+}
